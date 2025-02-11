@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Helmet>
-        <title>HOMETOWNHEROES - Home</title>
+        <title>INDIE-GROOVES - Home</title>
       </Helmet>
 
       <Herobanner />

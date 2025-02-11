@@ -7,7 +7,7 @@ function Impressum() {
     <>
 
       <Helmet>
-        <title>HOMETOWNHEROES - Impressum</title>
+        <title>INDIE-GROOVES - Impressum</title>
       </Helmet>
 
 

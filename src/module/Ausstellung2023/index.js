@@ -21,7 +21,7 @@ function Ausstellung2023() {
     <div>
 
       <Helmet>
-        <title>HOMETOWNHEROES - Ausstellung2023</title>
+        <title>INDIE-GROOVES - Ausstellung2023</title>
       </Helmet>
 
 

@@ -10,7 +10,7 @@ function Ausstellung2024() {
     <>
 
       <Helmet>
-        <title>HOMETOWNHEROES - Ausstellung2024</title>
+        <title>INDIE-GROOVES - Ausstellung2024</title>
       </Helmet>
       <Ausstellung2024herobanner />
       <Ausstellung2024pagelinks />

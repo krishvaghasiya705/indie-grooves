@@ -11,7 +11,7 @@ import Jesamblankicon from "../../assets/svg/jesamblankicon";
 
 function Donate() {
   const donateParagraph = `
-    Es gibt viele verschiedene Möglichkeiten, unser Projekt Hometown Heroes zu unterstützen. 
+    Es gibt viele verschiedene Möglichkeiten, unser Projekt INDIE-GROOVES zu unterstützen. 
     Ob durch die Verbreitung der Geschichten, die wir erzählen, die Teilnahme an unseren Veranstaltungen 
     oder die finanzielle Unterstützung – jede Form der Mithilfe trägt dazu bei, die Stimmen der Menschen 
     in unterdrückten Gemeinschaften zu stärken und ihnen eine Bühne zu geben.
@@ -20,14 +20,14 @@ function Donate() {
   return (
     <>
       <Helmet>
-        <title>HOMETOWNHEROES - Donate</title>
+        <title>INDIE-GROOVES - Donate</title>
       </Helmet>
 
       <div className="lwandle-donate-compo">
         <Lwandleherobanner
           hideImage={true}
           showText={true}
-          title="HOMETOWN HEROES 2024"
+          title="INDIE-GROOVES 2024"
           paragraph={donateParagraph}
           showBidButton={false}
           showMessageButton={true}

@@ -14,10 +14,10 @@ function Ausstellung2023Herobanner() {
             </div>
             <p>
               “Welcome to this comprehensive document that encapsulates the
-              essence and journey of HOMETOWN HEROES. Within this page, you will
+              essence and journey of INDIE-GROOVES. Within this page, you will
               find a vivid portrayal of our mission, our experiences, and our
               unwavering commitment to driving positive change. Explore how
-              HOMETOWN HEROES, with its roots in the townships of Cape Town,
+              INDIE-GROOVES, with its roots in the townships of Cape Town,
               will blossom into a platform of compassion, artistry, and
               impactful collaborations.“
             </p>

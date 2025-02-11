@@ -11,7 +11,7 @@ function Thanksection() {
         <div className="thanks-section-hometownheroes-div-one">
           <div>
             <p>
-              <span>NOVEMBER 2023</span> In November, Hometown Heroes embarks on
+              <span>NOVEMBER 2023</span> In November, INDIE-GROOVES embarks on
               a transformative journey to Lebanon. Our three-week mission is
               more than just a trip; it's a commitment to stand with those who
               have faced immense adversity.
@@ -35,7 +35,7 @@ function Thanksection() {
             </p>
           </div>
           <div className="thanks-sectionimage-div-main">
-            <h1>HOMETOWN HEROES</h1>
+            <h1>indie-grooves</h1>
             <img src={Footerimage1} alt="Footerimage1" rel="preload"/>
             <span>LEBANON</span>
           </div>
@@ -48,7 +48,7 @@ function Thanksection() {
 
           <div>
             <p>We extend our heartfelt gratitude for taking the time to explore the
-              story, mission, and future of Hometown Heroes. </p>
+              story, mission, and future of indie-grooves.</p>
             <p>
               Your commitment to understanding our vision is deeply appreciated.
               We believe that positive change begins with awareness, and your

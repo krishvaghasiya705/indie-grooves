@@ -16,7 +16,7 @@ function Hometownheroesperasection() {
           </div>
           <div className="hometownheroesbanner-peraghraph-div-main">
             <p>
-              In June 2023, Hometown Heroes made its debut with a captivating
+              In June 2023, INDIE-GROOVES made its debut with a captivating
               exhibition at the "qvartr Gallery" in Hamburg. The event garnered
               remarkable attention, drawing in over 350 guests. In a remarkable
               collaboration with the organization "Young Bafana" and their
@@ -51,9 +51,9 @@ function Hometownheroesperasection() {
             </p>
             <p>
               Looking ahead, we envision replicating these events for each
-              Hometown Heroes Edition coming up in the future, extending beyond
+              INDIE-GROOVES Edition coming up in the future, extending beyond
               Hamburg to several major cities in Germany. This ambitious
-              "Hometown Heroes Tour" will involve collaborations with local
+              "INDIE-GROOVES Tour" will involve collaborations with local
               sponsors in each city and steadfast partners committed to
               supporting and financing these impactful initiatives.
             </p>

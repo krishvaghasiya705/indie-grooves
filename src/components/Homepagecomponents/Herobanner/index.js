@@ -10,7 +10,7 @@ function Herobanner() {
       <div className="container-main">
         <div className="herobanner-hometown-div">
           <div className="hometownheroes-title-main">
-            <h1>HOME TOWN HEROES</h1>
+            <h1>INDIE GROOVES</h1>
           </div>
 
           <div className="hometown-herobanner-center-content">
@@ -40,11 +40,11 @@ function Herobanner() {
           <>
             <div className="fundamental-peragraph-main">
               <p>
-                The fundamental idea behind Hometown Heroes is to create a
+                The fundamental idea behind INDIE-GROOVES is to create a
                 platform that amplifies the voices of people in suppressed
-                communities. Hometown Heroes represents not just a creative
+                communities. INDIE-GROOVES represents not just a creative
                 endeavor, but an inspiring movement dedicated to supporting
-                those who are oppressed in their hometowns - be it due to
+                those who are oppressed in their indies - be it due to
                 political, religious, or racial circumstances, including
                 government corruption. Our mission is to tell their stories of
                 oppression and spread the universal message of equality and

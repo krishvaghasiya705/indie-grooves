@@ -33,7 +33,7 @@ function Impressumsection() {
               <p>Angaben gemäß § 5 TMG</p>
             </div>
             <div className="link-div">
-              <h2>HOMETOWN HEROES</h2>
+              <h2>INDIE-GROOVES</h2>
               <NavLink to={"/"} aria-label="home">Vertreten durch:</NavLink>
               <NavLink to={"/"} aria-label="home">Tom von Below</NavLink>
             </div>

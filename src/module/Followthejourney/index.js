@@ -17,7 +17,7 @@ function Followthejourney() {
     <>
 
       <Helmet>
-        <title>HOMETOWNHEROES - Followthejourney</title>
+        <title>INDIE-GROOVES - Followthejourney</title>
       </Helmet>
 
 

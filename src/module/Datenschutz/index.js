@@ -7,7 +7,7 @@ function Datenschutz() {
     <>
 
       <Helmet>
-        <title>HOMETOWNHEROES - Datenschutz</title>
+        <title>INDIE-GROOVES - Datenschutz</title>
       </Helmet>
 
 

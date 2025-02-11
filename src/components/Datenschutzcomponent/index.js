@@ -8,11 +8,11 @@ function Datenschutzsection() {
         <div className="datenschutz-section">
           <h1>DATENSCHUTZ</h1>
           <div className="hometown-title-web">
-            <h2>HOMETOWN HEROES</h2>
+            <h2>INDIE-GROOVES</h2>
             <p>Vertreten durch: Tom von Below</p>
           </div>
           <div className="hometown-title-mobile">
-            <h2>HOMETOWN HEROES</h2>
+            <h2>INDIE-GROOVES</h2>
             <p>Vertreten durch:</p>
             <p> Tom von Below</p>
           </div>

@@ -9,7 +9,7 @@ function Hometownheroessection() {
     <div className="home-town-heroes-section-main">
       <div className="home-town-heroes-section-container">
         <div className="home-town-heroes-section">
-          <h1>HOMETOWN HEROES</h1>
+          <h1>INDIE-GROOVES</h1>
           <img src={hometownheroeskid4} alt="hometownheroeskid4" rel="preload" />
           <div>
             <span>“EQUAL AS HUMANS - DESPITE DIFFERENCES“</span>
@@ -24,14 +24,14 @@ function Hometownheroessection() {
           <div>
             <p>
               We invite you to join us on a remarkable journey - a journey that
-              transcends borders, cultures, and disparities. Hometown Heroes is
+              transcends borders, cultures, and disparities. INDIE-GROOVES is
               not just a project; it is a profound movement that harnesses the
               power of art, compassion, and collective action to change lives
               and inspire hope.
             </p>
             <p>
-              At the heart of Hometown Heroes lies a powerful mission - to shed
-              light on the stories of those living in their hometowns, bound by
+              At the heart of INDIE-GROOVES lies a powerful mission - to shed
+              light on the stories of those living in their indies, bound by
               circumstances that often oppress them - be it political,
               religious, or racial, including government corruption. Our mission
               is to capture their narratives of struggle and resilience and
@@ -42,7 +42,7 @@ function Hometownheroessection() {
               We wholeheartedly invite you to become a part of this
               transformative journey. Your support and partnership can help
               catalyze global change and give a voice to those who need it most.
-              Together, we can carry the message of Hometown Heroes to the world
+              Together, we can carry the message of INDIE-GROOVES to the world
               and drive profound transformations.
             </p>
             <p>
@@ -52,7 +52,7 @@ function Hometownheroessection() {
               to explore how we can create positive change together.
             </p>
             <p>
-              Thank you for considering Hometown Heroes as a platform for your
+              Thank you for considering INDIE-GROOVES as a platform for your
               philanthropic endeavors. We eagerly await your partnership in
               building a brighter, more compassionate world.
             </p>

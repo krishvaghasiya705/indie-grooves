@@ -14,7 +14,7 @@ function Lwandle() {
     <>
 
       <Helmet>
-        <title>HOMETOWNHEROES - Lwandle</title>
+        <title>INDIE-GROOVES - Lwandle</title>
       </Helmet>
 
 
