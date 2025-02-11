@@ -1,0 +1,166 @@
+.ausstellung2023-main {
+  margin: 38px 0 121px 0;
+
+  @media (max-width:1024px) {
+    margin: 17px 0 70px 0;
+  }
+
+  @media (max-width:576px) {
+    margin: 17px 0 49px 0;
+  }
+
+  .container-main{
+
+    @media (max-width:576px) {
+      padding: 0;
+    }
+  }
+
+  .ausstellung2023-content-alignment {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: end;
+    gap: 35px;
+
+    @media (max-width:1024px) {
+      display: flex;
+      justify-content: space-around;
+      gap: 20px;
+    }
+
+    @media (max-width:576px) {
+      display: flex;
+      flex-direction: column-reverse;
+      gap: 60px;
+      position: relative;
+      align-items: center;
+    }
+
+    .intro-title {
+
+      @media (max-width:576px) {
+        text-align: center;
+      }
+    }
+
+    .intro-title-div {
+      @media (max-width:576px) {
+        position: relative;
+        height: 166px;
+        overflow: hidden;
+      }
+
+      h1 {
+
+        @media (max-width:576px) {
+          position: absolute;
+          z-index: 2;
+          top: 0;
+          left: 50%;
+          transform: translateX(-50%);
+        }
+
+      }
+    }
+
+    h1 {
+      font-family: "Big Shoulders Display", sans-serif;
+      font-size: 200px;
+      font-weight: 900;
+      line-height: 175px;
+      letter-spacing: -0.06em;
+      color: #1b1b1b;
+      margin: 0 0 20px 0;
+
+      @media (max-width:1024px) {
+        font-size: 115px;
+        line-height: 100px;
+      }
+
+      @media (max-width:576px) {
+        font-size: 200px;
+        line-height: 166px;
+        position: relative;
+        z-index: 2;
+        margin: 0 0 15px 0;
+        word-break: keep-all;
+      }
+    }
+
+    p {
+      font-family: "Big Shoulders Display", sans-serif;
+      font-size: 20px;
+      font-weight: 700;
+      line-height: 30px;
+      color: #1b1b1b;
+      max-width: 409px;
+
+      @media (max-width:1024px) {
+        font-size: 12px;
+        line-height: 17px;
+        max-width: 236px;
+      }
+
+      @media (max-width:576px) {
+        font-size: 14px;
+        line-height: 20px;
+        text-align: center;
+        max-width: none;
+        position: relative;
+        z-index: 2;
+        padding: 0 20px;
+      }
+    }
+
+    .date-alignment {
+
+      @media (max-width:576px) {
+        position: relative;
+        height: 166px;
+        overflow: hidden;
+        width: 100%;
+      }
+
+      h1 {
+        text-align: center;
+        margin: 0 !important;
+
+        @media (max-width:576px) {
+          position: absolute !important;
+          top: 0;
+          left: 50%;
+          transform: translateX(-50%);
+          z-index: 0 !important;
+          word-break: keep-all;
+        }
+      }
+    }
+
+    .hometownheroesbannerimage2 {
+      width: fit-content;
+
+      @media (max-width:576px) {
+        position: absolute;
+        top: 41%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+      }
+
+      img {
+        max-width: 387px;
+        min-height: 526px;
+
+        @media (max-width:1024px) {
+          max-width: 224px;
+          min-height: 305px;
+        }
+
+        @media (max-width:576px) {
+          max-width: 163px;
+          min-height: 222px;
+        }
+      }
+    }
+  }
+}

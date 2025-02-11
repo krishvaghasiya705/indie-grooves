@@ -1,0 +1,414 @@
+.lwandle-herobanner-main {
+  .lwandle-herobanner-container {
+    max-width: 1298px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .lwandle-herobanner {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    gap: 60px;
+    margin: 18px 0 45px 0;
+
+    @media (max-width:1024px) {
+      gap: 35px;
+      margin: 27px 0 60px 0;
+      align-items: center;
+    }
+
+    @media (max-width:576px) {
+      flex-direction: column;
+      gap: 13px;
+    }
+
+    .homtownheroes-mini-page-image-alignment {
+      min-height: 594px;
+      max-height: 594px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      @media (max-width:1024px) {
+        max-height: 348px;
+        min-height: 348px;
+      }
+
+      @media (max-width:576px) {
+        max-height: none;
+        min-height: auto;
+      }
+
+      img {
+        max-height: none;
+
+        @media (max-width:1024px) {
+          max-height: 348px;
+        }
+
+        @media (max-width:576px) {
+          max-height: none;
+        }
+      }
+
+      h1 {
+        font-family: "Big Shoulders Display", sans-serif;
+        font-size: 145px;
+        font-weight: 900;
+        line-height: 136px;
+        letter-spacing: -0.06em;
+        color: #f6f1e5;
+        margin: 0 0 50px 0;
+
+        @media (max-width:1024px) {
+          font-size: 145px;
+          line-height: 136px;
+        }
+
+        @media (max-width:576px) {
+          font-size: 145px;
+          line-height: 136px;
+          margin: 0 20px 0 0;
+        }
+      }
+    }
+
+    .lwandle-herobanner-content-main {
+      
+      @media (max-width:576px) {
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        width: 100%;
+      }
+
+      .lwandle-herobanner-content {
+        max-width: 366px;
+        width: 100%;
+
+        .lwandle-title {
+          h1 {
+            font-family: "Big Shoulders Display", sans-serif;
+            font-size: 36px;
+            font-weight: 900;
+            line-height: 55px;
+            letter-spacing: -0.04em;
+            margin: 0 0 10px 0;
+            color: #f6f1e5;
+            word-break: break-all;
+
+            @media (max-width:1024px) {
+              margin: 0 0 5px 0;
+              font-size: 21px;
+              line-height: 32px;
+            }
+
+            @media (max-width:576px) {
+              font-size: 36px;
+              line-height: 55px;
+              margin: 0 0 10px 0;
+            }
+          }
+
+          p {
+            font-family: "Big Shoulders Display", sans-serif;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 22px;
+            color: #f6f1e5;
+            max-width: 243px;
+            margin: 0 0 30px 0;
+
+            @media (max-width:1024px) {
+              font-size: 11px;
+              line-height: 13px;
+              margin: 0 0 17px 0;
+            }
+
+            @media (max-width:576px) {
+              font-size: 14px;
+              line-height: 22px;
+              max-width: none;
+              margin: 0 0 30px 0;
+            }
+          }
+        }
+
+        form {
+          margin: 0 0 30px 0;
+
+          @media (max-width:1024px) {
+            margin: 0 0 17px 0;
+          }
+
+          @media (max-width:1024px) {
+            margin: 0 0 30px 0;
+          }
+
+          h2 {
+            font-family: "Big Shoulders Display", sans-serif;
+            font-size: 14px;
+            font-weight: 700;
+            line-height: 22px;
+            color: #f6f1e5;
+            margin: 0 0 20px 0;
+
+            @media (max-width:1024px) {
+              font-size: 11px;
+              line-height: 13px;
+              margin: 0 0 11px 0;
+            }
+
+            @media (max-width:576px) {
+              font-size: 14px;
+              line-height: 22px;
+              margin: 0 0 20px 0;
+            }
+          }
+
+          label {
+            font-family: "Big Shoulders Display", sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 22px;
+            display: block;
+            color: #f6f1e5;
+
+            @media (max-width:1024px) {
+              font-size: 10px;
+              line-height: 13px;
+            }
+
+            @media (max-width:576px) {
+              font-size: 16px;
+              line-height: 22px;
+            }
+          }
+
+          input {
+            background-color: transparent;
+            outline: none;
+            border: none;
+            border-bottom: 1px solid #3d3d3d;
+            font-family: "Big Shoulders Display", sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 22px;
+            width: 100%;
+            color: #f6f1e5;
+            padding: 0 0 3px 0;
+
+            &:focus {
+              outline: none;
+              transition: 0.5s ease-in-out;
+              border-color: #fff;
+            }
+
+            @media (max-width:1024px) {
+              font-size: 10px;
+              line-height: 13px;
+            }
+
+            @media (max-width:576px) {
+              font-size: 16px;
+              line-height: 22px;
+            }
+          }
+
+          .input-div-main {
+            margin: 0 0 10px 0;
+
+            @media (max-width:1024px) {
+              margin: 0 0 5px 0;
+            }
+          }
+
+          .input-div-main-alignment {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 5px;
+          }
+        }
+
+        .donate-telefon-nachricht-div {
+          display: none;
+
+          @media (max-width:576px) {
+            display: block;
+          }
+        }
+
+        .gebot-div-main {
+          h3 {
+            font-family: "Big Shoulders Inline Text", sans-serif;
+            font-size: 25px;
+            font-weight: 900;
+            line-height: 22px;
+            color: #f6f1e5;
+            margin: 0 0 20px 0;
+
+            @media (max-width:1024px) {
+              margin: 0 0 11px 0;
+              font-size: 14px;
+              line-height: 13px;
+            }
+          }
+
+          label {
+            font-family: "Big Shoulders Display", sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 22px;
+            color: #f6f1e5;
+
+            @media (max-width:1024px) {
+              font-size: 10px;
+              line-height: 13px;
+            }
+          }
+
+          input {
+            background-color: transparent;
+            outline: none;
+            border: none;
+            border-bottom: 1px solid #3d3d3d;
+            font-family: "Big Shoulders Display", sans-serif;
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 22px;
+            color: #f6f1e5;
+
+            &:focus {
+              transition: 0.5s ease-in-out;
+              outline: none;
+              border-color: #fff;
+            }
+
+            @media (max-width:1024px) {
+              font-size: 10px;
+              line-height: 13px;
+              display: block;
+            }
+          }
+
+          .input-div-main-alignment {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 5px;
+          }
+
+          .redio-input-main {
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            gap: 10px;
+            margin: 10px 0 30px 0;
+
+            @media (max-width:1024px) {
+              margin: 5px 0 17px 0;
+              gap: 4px;
+            }
+
+            @media (max-width:576px) {
+              margin: 0 0 30px 0;
+              gap: 10px;
+            }
+
+            input[type="checkbox"] {
+              appearance: none;
+              width: 10px;
+              height: 10px;
+              border-radius: 50%;
+              border: 2px solid #fff;
+              outline: none;
+              cursor: pointer;
+              margin: 0;
+              background-color: #000;
+
+              @media (max-width:1024px) {
+                width: 5px;
+                height: 5px;
+                border-width: .5px;
+              }
+
+              @media (max-width:1024px) {
+                width: 10px;
+                height: 10px;
+                border-width: 1px;
+              }
+            }
+
+            input[type="checkbox"]:checked {
+              background-color: #fff;
+              border-color: #fff;
+            }
+
+            p {
+              font-family: "Big Shoulders Display", sans-serif;
+              font-size: 12px;
+              font-weight: 700;
+              line-height: 22px;
+              color: #f6f1e5;
+              min-width: max-content;
+              
+              @media (max-width:1024px) {
+                font-size: 8px;
+                line-height: 13px;
+              }
+
+              @media (max-width:576px) {
+                font-size: 12px;
+                line-height: 22px;
+                min-width: auto;
+              }
+            }
+          }
+
+          .gebot-button-main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            button {
+              padding: 12px 26px;
+              border: 1px solid #f6f1e5;
+              border-radius: 35px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              font-family: "Big Shoulders Display", sans-serif;
+              font-size: 16px;
+              font-weight: 900;
+              line-height: 21px;
+              letter-spacing: 0.14em;
+              text-align: center;
+              color: #fff;
+              background-color: transparent;
+              transition: 0.5s ease-in-out;
+              cursor: pointer;
+
+              &:hover {
+                transition: 0.5s ease-in-out;
+                background-color: #fff;
+                color: #000;
+              }
+
+              @media (max-width:1024px) {
+                padding: 7px 15px;
+                font-size: 10px;
+                line-height: 12px;
+              }
+
+              @media (max-width:576px) {
+                padding: 13px 26px;
+                font-size: 16px;
+                line-height: 21px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

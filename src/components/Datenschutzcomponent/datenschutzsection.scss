@@ -1,0 +1,128 @@
+.datenschutz-section-main {
+  margin: 67px 0 69px 0;
+
+  @media (max-width:576px) {
+    margin: 67px 0 52px 0;
+  }
+
+  .datenschutz-section-container {
+    max-width: 929px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .datenschutz-section {
+    h1 {
+      font-family: "Big Shoulders Display", sans-serif;
+      font-size: 76px;
+      font-weight: 900;
+      line-height: 71px;
+      letter-spacing: -0.06em;
+      color: #1b1b1b;
+      margin: 0 0 30px 0;
+
+      @media (max-width:576px) {
+        font-size: 76px;
+        line-height: 71px;
+        text-align: center;
+        margin: 0 0 39px 0;
+      }
+    }
+
+    h2 {
+      font-family: "Big Shoulders Display", sans-serif;
+      font-size: 20px;
+      font-weight: 900;
+      line-height: 30px;
+      letter-spacing: -0.06em;
+      color: #1b1b1b;
+
+      @media (max-width:576px) {
+        font-size: 35px;
+        line-height: 44px;
+        text-align: center;
+        margin: 0 0 30px 0;
+      }
+    }
+
+    p {
+      font-family: "Big Shoulders Display", sans-serif;
+      font-size: 20px;
+      font-weight: 400;
+      line-height: 30px;
+      letter-spacing: -0.06em;
+      color: #1b1b1b;
+
+      @media (max-width:576px) {
+        font-size: 35px;
+        line-height: 44px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      a {
+        color: #1b1b1b;
+        text-decoration-line: none;
+        margin: 0 0 30px 0;
+        display: block;
+        width: fit-content;
+      }
+    }
+
+    .datenschutz-data-2 {
+      margin: 30px 0;
+
+      @media (max-width:576px) {
+        display: none;
+      }
+    }
+
+    .datenschutz-data-2-mobile {
+      display: none;
+
+      @media (max-width:576px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 0 30px 0;
+      }
+
+      .info-h2 {
+
+        h2 {
+          max-width: none !important;
+        }
+      }
+
+      h2 {
+        text-align: center;
+        max-width: 380px;
+        margin: 0 !important;
+      }
+    }
+
+    .hometown-title-web {
+      @media (max-width:576px) {
+        display: none;
+      }
+    }
+
+    .hometown-title-mobile {
+      display: none;
+
+      @media (max-width:576px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin: 0 0 30px 0;
+      }
+
+      h2 {
+        margin: 0 !important;
+      }
+    }
+  }
+}
